@@ -103,6 +103,7 @@ body::-webkit-scrollbar-thumb {
 }
 .nav .nav--toggle {
   color: #000f;
+  color: var(--secondary);
   position: relative;
   top: 2rem;
   background: none;
@@ -548,7 +549,7 @@ body::-webkit-scrollbar-thumb {
 .gradient-background {
   background: linear-gradient(211deg,#ffd3b3,#fce5d0,#ffd7a6,#f1d6b0,#ebc199);
   background-size: 300% 300%;
-  animation: gradient-animation 10s ease infinite;
+  animation: gradient-animation 3s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -567,14 +568,31 @@ body::-webkit-scrollbar-thumb {
 
 .heroSlider{
   position: relative;
+
 }
 
 
 .heroSliderWrapper{
   position: absolute;
-  width: 25rem;
   top: 0rem;
-  right: 5rem;
+  right: 0rem;
+  background-color: black;
+  background-image: url('https://images.pexels.com/photos/9665176/pexels-photo-9665176.jpeg?cs=srgb&dl=pexels-cottonbro-studio-9665176.jpg&fm=jpg');
+  background-size: contain;
+  background-repeat: repeat;
+  height: 100%;
+  width: 40%;
+}
+
+.heroImgWrapper{
+  width: 30rem;
+  height: 30rem;
+}
+
+.heroSliderWrapper img{
+  max-width: 100%;
+  position: relative;
+  top: 0rem;
 }
 
 .heroSliderWrapper button{
@@ -725,7 +743,7 @@ padding-bottom: 2rem;
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
   animation: scroll 50s linear infinite;
-  background: url("https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"), #111111;
+  background: url("https://cdn.pixabay.com/photo/2014/11/18/20/39/wave-536672_1280.jpg"), #111111;
   background-repeat: repeat;
   background-size: cover;
 }
