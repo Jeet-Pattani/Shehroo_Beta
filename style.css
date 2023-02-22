@@ -892,6 +892,7 @@ background-image: none;
   text-align: center;
   padding: 4rem 2rem;
   position: relative;
+  margin-bottom: 6rem;
 }
 
 .aboutUs h2{
@@ -986,11 +987,27 @@ section.cta{
 
 .cta .ctaText{
   position: absolute;
-  left: 5rem;
+  left: 6rem;
+  bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.ctaText h3{
+  font-weight: bold;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+}
+
+.ctaText p{
+  width: 50%;
+  line-height: 1.5;
+  letter-spacing: 1px;
 }
 
 .cta .ctaImg{
-  background-image: url('images/shopping.png');
+  background-image: url('images/model8.png');
 position: absolute;
 height: 25rem;
 right: 0rem;
@@ -999,8 +1016,8 @@ width: 29rem;
 
 }
 .cta .ctaBtns{
-  position: relative;
-  top: 2rem;
+  position: absolute;
+  top: 80%;
 }
 
 .cta .ctaImg img{
