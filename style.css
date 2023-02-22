@@ -592,7 +592,7 @@ body::-webkit-scrollbar-thumb {
 .heroSliderWrapper img{
   max-width: 100%;
   position: relative;
-  top: 0rem;
+  top: 2rem;
 }
 
 .heroSliderWrapper button{
@@ -767,10 +767,12 @@ padding-bottom: 2rem;
 
 .new-arrivals h3{
   display: inline-block;
-  margin: 1rem auto;
+  margin: 2rem auto;
   position: absolute;
   top: 0;
   z-index: 1;
+  padding-bottom: 2rem;
+  color: var(--secondary);
 }
 
 .newProduct{
